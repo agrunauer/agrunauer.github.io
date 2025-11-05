@@ -1,0 +1,12 @@
+#p1 {
+    color: #7c142e
+}
+/* "#" (hashgtag) Always means target */
+/* We can't use the same id for different html elements, but we use class when 
+we have more than one element we want to apply the same css style. */
+.cool {
+    color:rgb(68, 147, 147)
+}
+p {
+    background-color:rgb(222, 221, 221)
+}
