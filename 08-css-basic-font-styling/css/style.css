@@ -1,0 +1,19 @@
+body {
+    font-family: 'Gill Sans';
+}
+h1 {
+    font-family: fantasy;
+}
+span {
+    font-weight: bold;
+}
+#s1 {
+    color: #eb8500;
+}
+#s2 {
+    color: blueviolet;
+}
+a {
+    color:brown;
+    text-decoration: none;
+}
