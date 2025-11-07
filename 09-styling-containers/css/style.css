@@ -1,0 +1,6 @@
+.shadowed {
+    background-color: rgb(164, 185, 143);
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 5px 5px 15px;
+}
