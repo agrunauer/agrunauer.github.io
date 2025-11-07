@@ -40,3 +40,20 @@
 #s12 {
     text-decoration: underline;
 }
+#fh-1 {
+    font-size: 36px;
+}
+#t10-p {
+    text-align: center;
+}
+#t10-e {
+    font-size: 12px;
+    font-weight: bold;
+}
+#t10-fh {
+    font-size: 48px;
+}
+#t10-fsh {
+    font-size: 24px;
+    font-style: italic;
+}
