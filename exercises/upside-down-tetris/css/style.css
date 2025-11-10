@@ -1,0 +1,26 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: rgb(225, 179, 138);
+    font-size: 0px;
+}
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 243, 238);
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px 1px;
+}
+.white {
+    background-color: #fde8e8;
+}
+.white2 {
+    background-color: #000000;
+}
+.white23 {
+    background-color: #b01212;
+}
+.white3 {
+    background-color: #b01212;
+}
