@@ -1,0 +1,76 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: cadetblue;
+    display: inline-block;
+    margin: 26px;
+    padding: 24px;
+    box-shadow: 3px 1px 8px 1px;
+    width: 250px;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.title {
+    background-color: azure;
+    width: 480px;
+}
+.no-padding1 {
+    background-color: bisque;
+    padding: 6px;
+    aspect-ratio: auto;
+    vertical-align: top;
+    width: 300px;
+    margin: 70px;
+}
+.itinerary {
+    background-color: aliceblue;
+    vertical-align: top;
+}
+.no-padding2 {
+    background-color: cornflowerblue;
+    margin: 70px;
+    padding: 8px;
+    aspect-ratio: auto;
+}
+.no-padding3 {
+    background-color: rgb(255, 233, 242);
+    padding: 6px;
+    aspect-ratio: auto;
+    width: 300px;
+}
+.pinn {
+    width: 60px;
+    transform: translateX(50%);
+    position: absolute;
+    top: -24px;
+    right: 50%;
+}
+.pin {
+    width: 60px;
+    transform: translateX(50%);
+    position: absolute;
+    top: 250px;
+    right: 10%;
+}
+.pin1 {
+    width: 60px;
+    transform: translateX(50%);
+    position: absolute;
+    top: 720px;
+    left: 10%;
+}
+h2 {
+    text-align: center;
+    background-color: lavenderblush;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 20px;
+}
