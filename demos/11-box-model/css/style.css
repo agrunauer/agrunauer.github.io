@@ -1,0 +1,35 @@
+div {
+    border: 2px dashed firebrick;
+    margin: 20px 0px;
+    /*
+        Margin/Padding Shorthand Values
+        - One Value: Targets all four sides.
+        - Two Values: First value is top/bottom, second value is left/right.
+        - Three Values: First value is top, second value is left/right,
+        third value is bottom.
+        - Four Values: First value is top, second value is right,
+        third value is bottom, and fourth value is left.
+    */
+    padding: 20px;
+    background-color: lavenderblush;
+}
+a {
+    text-decoration: none;
+    color: rgb(254, 227, 227);
+    font-weight: bold;
+    background-color: firebrick;
+    padding: 25px;
+    display: inline-block;
+    /*
+        Border-radius Shorthand Values
+        - One Value: Targets all four sides.
+        - Two Values: First value is top-left/bottom-right,
+        second value is top-right/bottom-left.
+        - Three Values: First value is top-left,
+        second value is top-right/bottom-left, third value is bottom-right.
+        - Four Values: First value is top-left, second value is top-right,
+        third value is bottomright, and fourth value is bottom-left.
+        - Perfect circle: 50%
+    */
+    border-radius: 30px;
+}
