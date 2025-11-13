@@ -1,0 +1,12 @@
+ul {
+    color: green;
+}
+ul a {
+    color: lawngreen;
+}
+ul p a {
+    color: purple;
+}
+ul div a {
+    color: lightblue;
+}
