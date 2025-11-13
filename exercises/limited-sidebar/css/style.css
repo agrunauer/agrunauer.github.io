@@ -4,6 +4,7 @@
     width: 500px;
     min-height: 100vh;
     padding: 24px;
+    display: inline-block;
 }
 .chapter {
     font-weight: bold;
