@@ -1,0 +1,23 @@
+/* DEMO */
+
+.btn {
+    text-decoration: none;
+    color: #111;
+    display: inline-block;
+    margin: 10px;
+}
+
+.border {
+    border: 2px solid #e17a14;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+.wide .btn {
+    text-align: center;
+    display: block;
+}
