@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+.single-column {
+    width: 50%;
+    max-width: 9000px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.light-container {
+    background-color: rgb(212, 250, 255);
+    padding: 48px 0px;
+}
+
+.images {
+    background-color: rgb(80, 152, 214);
+    padding: 48px;
+    display: inline-block;
+    color: rgb(243, 251, 255);
+}
+
+#sep {
+    padding-top: 5px;
+    display: inline-block;
+}
