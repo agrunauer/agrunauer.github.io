@@ -52,7 +52,6 @@ body {
 
 #img4 {
     transform: rotate(20deg);
-    margin: 0px 2px 0px 20px;
 }
 
 a {
@@ -67,24 +66,100 @@ a {
 #s2 .single-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 
 #i1 {
-    display: grid;
     background-color: whitesmoke;
-    padding: 150px 0px 0px 0px;
 }
 #i2 {
-    display: grid;
-    background-color: rgb(224, 164, 96);
-    padding: 159px 0px 0px 0px;
+    background-color: rgb(243, 108, 171);
+    display: flex;
+    align-items: flex-end;
 }
 #i3 {
-    display: grid;
     background-color: rgb(2, 45, 21);
-
+    display: flex;
+    align-items: flex-end;
 }
 #i4 {
-    display: grid;
     background-color: rgb(224, 37, 37);
+}
+#i1 #i3 {
+    margin-left: auto;
+    display: block;
+    display: flex;
+    align-items: flex-end;
+}
+
+#s3 .single-column {
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.fascinate-regular3 {
+  font-family: "Fascinate", system-ui;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(167, 163, 163);
+  display: inline-block;
+  text-align: center;
+}
+
+.fascinate-regular4 {
+  font-family: "Fascinate", system-ui;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(124, 31, 90);
+  display: inline-block;
+}
+
+.fascinate-regular5 {
+  font-family: "Fascinate", system-ui;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(30, 66, 38);
+  display: inline-block;
+}
+
+.fascinate-regular6 {
+  font-family: "Fascinate", system-ui;
+  font-style: normal;
+  font-size: 30px;
+  color: rgb(79, 34, 34);
+  display: inline-block;
+}
+
+.sbs {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: left;
+    padding: 150px;
+}
+
+.sbs2 {
+    background-color: rgb(243, 108, 171);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 150px;
+}
+
+.sbs3 {
+    background-color: rgb(108, 154, 129);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 150px;
+}
+
+.sbs4 {
+    background-color: rgb(165, 117, 117);
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 150px;
 }

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.card {
+    border: 5px solid #47856a;
+    background-color: #72c3a0;
+    text-align: center;
+    padding: 36px;
+    margin: 36px 20px;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.sbs {
+    display: flex;
+}
