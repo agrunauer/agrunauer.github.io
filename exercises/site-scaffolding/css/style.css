@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+header #top-lvl {
+    background: linear-gradient(to bottom, rgb(26, 97, 26), #185118);
+}
+
+#top-lvl #logo {
+    padding-left: 630px;
+    padding-bottom: 24px;
+    padding-top: 20px;
+    display: flex;
+}
+
+nav #logo {
+    margin-right: auto;
+}
+
+nav #logo img {
+    width: 100px;
+    padding: 15px;
+    align-items: center;
+}
+
+header #twolvl {
+    background: linear-gradient(to top, rgb(23, 88, 23), #185118);
+}
+
+#twolvl {
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+#twolvl a {
+    text-decoration: none;
+    color: rgb(208, 226, 184);
+    padding: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #185118;
+    margin-top: 60px;
+}
