@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#layout {
+    display: flex;
+    width: 80vw;
+    max-width: 1280px;
+    margin: 0px auto;
+    padding-top: 80px;
+}
+
+#thumbnail-column {
+    padding-right: 20px;
+    flex: 1;
+}
+
+#thumbnail-column img {
+    width: 115px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#b {
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#feature-image-column img {
+    border-radius: 20px;
+    order: 2;
+    flex: 1;
+}
+
+
+#product-info-column {
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#ppf {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid;
+    align-items: center;
+}
+
+.side-by-side {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.text-side p{
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+#prize {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#offer {
+    margin-top: 0px;
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.side-by-side2 {
+    display: flex;
+}
+
+#sep {
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    background-color: rgb(0, 136, 255);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.border {
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+.wide .btn {
+    text-align: center;
+    display: block;
+}
+
+.wide .border {
+    text-align: center;
+    display: block;
+}
