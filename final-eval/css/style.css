@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.fascinate-regular {
+    font-family: "Fascinate", system-ui;
+    font-style: normal;
+    font-size: 60px;
+    margin: -11.8%;
+    color: rgb(255, 255, 255);
+}
+.fascinate-regular2 {
+    font-family: "Fascinate", system-ui;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(53, 125, 188);
+}
+
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
     font-family: sans-serif;
@@ -98,8 +115,10 @@ img {
     font-size: 12px;
 }
 
-h1 {
+.fascinate-regular {
+    font-size: 40px;
     color: rgb(29, 81, 126);
+    margin: 9px;
 }
 
 p {
@@ -108,6 +127,7 @@ p {
 
 h3 {
     color: rgb(59, 101, 138);
+    font-size: 18px;
 }
 
 h4 {
