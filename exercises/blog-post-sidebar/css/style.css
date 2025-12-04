@@ -25,14 +25,9 @@ img {
 }
 
 #sidebar {
-    width: 250px;
+    width: 550px;
     order: 2;
     padding: 50px;
-}
-
-#main {
-    flex: 1;
-    order: 1;
 }
 
 #sidebar a {
@@ -49,5 +44,9 @@ img {
 #sidebar li {
     border-bottom: 0.5px solid;
     margin: 20px;
+}
+
+.images img {
+    width: 200px;
 }
 

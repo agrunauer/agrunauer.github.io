@@ -1,0 +1,28 @@
+.playlist-card {
+    display: flex;
+    padding: 50px;
+}
+
+.playlist-info {
+    margin-left: 26px;
+}
+
+.dust {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.moon {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.twenty {
+    display: flex;
+}
+
+.playlist-card {
+    display: flex;
+    padding: 50px;
+}
+
