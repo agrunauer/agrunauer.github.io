@@ -5,7 +5,6 @@
 body {
     margin: 0px;
     font-family: serif;
-    background-color: rgb(246, 235, 255);
 }
 
 img {
@@ -36,7 +35,12 @@ header #top-lvl {
 
 #top-lvl .search {
     margin-top: 40px;
-    width: 300px;
+    border: solid;
+    border-radius: 50px;
+}
+
+.search p {
+    margin: 0px;
 }
 
 nav #logo {
